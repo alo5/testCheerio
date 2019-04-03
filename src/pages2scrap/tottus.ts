@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class Tottus {
-  url = 'https://www.plazavea.com.pe/buscapagina';
+  url = 'http://www.tottus.com.pe/tottus/search';
   parameters = {
     Nrpp: 15,
     Ntt: 'arroz' 
